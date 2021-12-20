@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+}
+#container{
+    
+    margin-top: 150px;
+    margin-left: 200px;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+#dd1{
+    position: sticky;
+    margin-left: 1100px;
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+   }
+   #dd1:hover{
+       background-color: green;
+       color: white;
+       cursor: grab;
+   }
+   
+.div{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+#div1{
+    justify-content: center;
+    background-color: aqua;
+}
+#div2{
+    background-color: blue;
+}
+#div3{
+    background-color: red;
+}
+#div4{
+    background-color: green;
+}
